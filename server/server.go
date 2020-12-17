@@ -1,13 +1,20 @@
 package server
 
 import (
+	"os"
+	"log"
 	"verify/server/routes"
 	"github.com/gin-gonic/gin"
 )
 
 func Run() {
+	port := os.Getenv("PORT")
+
+	if port == "" {
+		log.Fatal("$PORT must be set")
+	}
 	router := SetupRouter()
-	router.Run(":8000")
+	router.Run(":"+port)
 }
 
 func SetupRouter() *gin.Engine {
