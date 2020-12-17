@@ -1,1 +1,1 @@
-web: oauth
+web: /bin/verify
