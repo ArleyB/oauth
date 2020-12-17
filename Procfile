@@ -1,1 +1,1 @@
-echo "web: oauth" > Procfile
+web: oauth
