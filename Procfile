@@ -1,1 +1,1 @@
-web: ./bin/verify
+web: bin/verify
