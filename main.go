@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ArleyB/oauth/verify/server"
+	"verify/server"
 )
 
 func main() {

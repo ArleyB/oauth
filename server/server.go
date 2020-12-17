@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/ArleyB/oauth/verify/server/routes"
+	"verify/server/routes"
 	"github.com/gin-gonic/gin"
 )
 
